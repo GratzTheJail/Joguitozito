@@ -1,1 +1,3 @@
-[0802/081101.906:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0802/083602.263:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0802/091130.832:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0802/092345.188:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
