@@ -1,0 +1,14 @@
+FOCO ESSA SEMANA
+- criar portais
+- criar duas fases 2D
+- crouch
+
+
+- tela de main menu
+- timer
+- quantidade de agua
+- obstáculos dao dano
+- morrer (zerar dano) --> reiniciar a fase
+- mudar nomes das variáveis para tropical/solar/presente
+- centralizar certinho as cameras
+- contar distancia
