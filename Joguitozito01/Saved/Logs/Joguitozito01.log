@@ -1603,3 +1603,24 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.08.16-15.45.40:141][886]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
 [2024.08.16-15.45.40:141][886]LogExit: Preparing to exit.
 [2024.08.16-15.45.40:277][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.08.16-15.45.41:819][886]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.08.16-15.45.42:464][886]LogExit: Editor shut down
+[2024.08.16-15.45.42:464][886]LogExit: Transaction tracking system shut down
+[2024.08.16-15.45.46:836][886]LogExit: Object subsystem successfully closed.
+[2024.08.16-15.45.46:953][886]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.08.16-15.45.48:933][886]MemoryProfiler: Shutdown
+[2024.08.16-15.45.49:055][886]NetworkingProfiler: Shutdown
+[2024.08.16-15.45.49:055][886]LoadingProfiler: Shutdown
+[2024.08.16-15.45.49:066][886]TimingProfiler: Shutdown
+[2024.08.16-15.45.49:731][886]LogWebBrowser: Deleting browser for Url=file:///B:/Epic/Unreal%20Engine/UE_5.4/Engine/Plugins/Bridge/ThirdParty/megascans/index.html#/.
+[2024.08.16-15.45.49:932][886]LogOpenImageDenoise: OIDN shutting down
+[2024.08.16-15.45.51:208][886]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.08.16-15.45.51:275][886]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.08.16-15.45.51:275][886]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B709C7879-4511-3B3E-301E-CAB865D018EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.3-34507850%2B%2B%2BUE5%2BRelease-5.4&UserID=40f8f21a497f7ca0940e54bf76e0a333%7Caff50c623c48487a90efe273221c69eb%7C4d96c260-f226-44be-a47d-612d0c4fe24d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.08.16-15.45.51:347][886]RenderDocPlugin: plugin has been unloaded.
+[2024.08.16-15.45.51:368][886]LogXGEController: Cleaning working directory: C:/Users/enzor/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.08.16-15.45.51:573][886]LogPakFile: Destroying PakPlatformFile
+[2024.08.16-15.45.51:591][886]LogD3D11RHI: Shutdown
+[2024.08.16-15.45.51:591][886]LogD3D11RHI: CleanupD3DDevice
+[2024.08.16-15.45.51:729][886]LogExit: Exiting.
+[2024.08.16-15.45.51:774][886]Log file closed, 08/16/24 12:45:51
