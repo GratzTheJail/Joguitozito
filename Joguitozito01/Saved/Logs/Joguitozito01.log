@@ -1513,3 +1513,4 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.08-17.46.52:479][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2024.11.08-17.46.52:668][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2024.11.08-17.46.52:836][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.08-17.49.44:555][443]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.BlendSpace1D
