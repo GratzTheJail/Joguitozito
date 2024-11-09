@@ -1966,3 +1966,18 @@ Caso contrário, os ativos podem estar ausentes das compilações preparadas. De
 [2024.11.09-19.54.36:880][729]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.11.09-19.54.36:880][729]LogContentValidation: Display: Validating asset /Game/2D-Assets/SunnyLandAssets_PLACEHOLDER/environment/layers/TP_Maps/Tileset_TP_Itro_Map.Tileset_TP_Itro_Map
 [2024.11.09-19.54.36:880][729]AssetCheck: /Game/2D-Assets/SunnyLandAssets_PLACEHOLDER/environment/layers/TP_Maps/Tileset_TP_Itro_Map Validando ativo
+[2024.11.09-19.56.02:687][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.09-19.56.02:798][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.11.09-19.56.02:803][ 61]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Intro_Tropical.TP_Intro_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Intro_Tropical.TP_Intro_Tropical_C'
+[2024.11.09-19.56.02:803][ 61]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Intro_Tropical.TP_Intro_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Intro_Tropical.TP_Intro_Tropical_C'
+[2024.11.09-19.56.02:804][ 61]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Intro_Tropical
+[2024.11.09-19.56.02:806][ 61]LogSavePackage: Moving '../../../../../../LITO/Documentos/GitHub/Joguitozito/Joguitozito01/Saved/TP_Intro_Tropical10D6BBF343438412810BFC9D12AB8991.tmp' to '../../../../../../LITO/Documentos/GitHub/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Intro_Tropical.umap'
+[2024.11.09-19.56.02:814][ 61]LogFileHelpers: Saving map 'TP_Intro_Tropical' took 0.062
+[2024.11.09-19.56.02:824][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.274 ms (total: 1.41 sec)
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: Enabled validators:
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.09-19.56.02:880][ 61]LogContentValidation: Display: Validating asset /Game/ThirdPerson/Maps/TP_Intro_Tropical.TP_Intro_Tropical
+[2024.11.09-19.56.02:880][ 61]AssetCheck: /Game/ThirdPerson/Maps/TP_Intro_Tropical Validando ativo
