@@ -1279,3 +1279,1699 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.20-19.09.09:310][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2024.11.20-19.09.09:345][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
 [2024.11.20-19.09.09:377][419]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: ================================================
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Total job queries 153, among them cache hits 90 (58.82%), DDC hits 55 (35.95%), Duplicates 4 (2.61%)
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Tracking 59 distinct input hashes that result in 47 distinct outputs (79.66%)
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: RAM used: 1,16 MiB of 1,60 GiB budget. Usage: 0.07%
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Average time worker was idle: 0.21 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.06 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Job execution time: average 1.46 s, max 2.56 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Job life time (pending + execution): average 1.49 s, max 2.56
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Shader code size: average 33,54 KiB, min 31,617 KiB, max 35,426 KiB
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.24 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Average processing rate: 1.24 jobs/sec
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Total thread time: 1,567 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Total thread preprocess time: 2,704 s
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Percentage time preprocessing: 172.54%
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Effective parallelization: 0.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.53 sec, max 0.57 sec, min 0.49 sec)
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.25 sec)
+[2024.11.20-19.09.39:095][753]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 67.53% of total time (compiled    2 times, average 0.53 sec, max 0.57 sec, min 0.49 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 32.47% of total time (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.25 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                                  FHitProxyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                                  FHitProxyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: === Material stats ===
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Materials Translated:    158
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Material Translation Only: 0.04 s (24%)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: Material Cache Hits: 20 (13%)
+[2024.11.20-19.09.39:096][753]LogShaderCompilers: Display: ================================================
+[2024.11.20-19.10.08:326][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.20-19.10.08:537][129]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMap.SolarPunkMap
+[2024.11.20-19.10.08:537][129]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.08:632][129]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.08:632][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.08:632][129]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.08:632][129]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.08:651][129]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.08:653][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.20-19.10.08:654][129]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.08:654][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.08:676][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.11.20-19.10.08:696][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.20-19.10.08:714][129]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMap'.
+[2024.11.20-19.10.08:714][129]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.08:760][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.08:784][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.20-19.10.08:792][129]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.08:792][129]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,066ms para ser concluída.
+[2024.11.20-19.10.20:667][830]Cmd: EDIT COPY
+[2024.11.20-19.10.21:966][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.20-19.10.22:150][906]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMapNv2_1.SolarPunkMapNv2_1
+[2024.11.20-19.10.22:150][906]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMapNv2_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.22:185][906]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.22:185][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.22:185][906]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.22:185][906]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.22:203][906]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.22:205][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.20-19.10.22:207][906]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.22:207][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.22:222][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.11.20-19.10.22:241][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.10.22:257][906]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMapNv2_1'.
+[2024.11.20-19.10.22:257][906]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.22:306][906]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.22:326][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.20-19.10.22:333][906]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.22:335][906]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 1,401ms para ser concluída.
+[2024.11.20-19.10.26:497][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.20-19.10.26:575][152]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMapNv2_2.SolarPunkMapNv2_2
+[2024.11.20-19.10.26:575][152]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMapNv2_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.26:608][152]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.26:608][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.26:608][152]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.26:608][152]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.26:626][152]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.26:628][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.11.20-19.10.26:631][152]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.26:631][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.26:646][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.20-19.10.26:731][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.10.26:746][152]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMapNv2_2'.
+[2024.11.20-19.10.26:747][152]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.26:793][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.26:811][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.20-19.10.26:818][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.26:818][152]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,065ms para ser concluída.
+[2024.11.20-19.10.30:803][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.20-19.10.30:852][386]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMapNv2_3.SolarPunkMapNv2_3
+[2024.11.20-19.10.30:852][386]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMapNv2_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.30:923][386]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.30:923][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.30:923][386]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.30:923][386]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.30:940][386]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.30:944][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.20-19.10.30:945][386]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.30:946][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.30:963][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.20-19.10.31:043][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.20-19.10.31:059][386]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMapNv2_3'.
+[2024.11.20-19.10.31:059][386]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.31:107][386]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.31:128][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.20-19.10.31:136][386]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.31:136][386]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,071ms para ser concluída.
+[2024.11.20-19.10.38:204][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.20-19.10.38:273][805]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical
+[2024.11.20-19.10.38:273][805]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.38:342][805]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.38:342][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.38:342][805]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.38:342][805]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.38:360][805]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.38:362][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.20-19.10.38:364][805]LogWorld: UWorld::CleanupWorld for TP_2_1_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.38:364][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.38:380][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.11.20-19.10.38:474][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.20-19.10.38:478][805]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_2_1_Tropical'.
+[2024.11.20-19.10.38:478][805]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.38:524][805]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.38:551][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.20-19.10.38:558][805]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.38:558][805]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,065ms para ser concluída.
+[2024.11.20-19.10.41:138][956]Cmd: EDIT PASTE
+[2024.11.20-19.10.48:154][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.10.49:340][367]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.10.49:355][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.10.49:440][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.20-19.10.49:444][367]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical_C'
+[2024.11.20-19.10.49:445][367]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical_C'
+[2024.11.20-19.10.49:447][367]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical
+[2024.11.20-19.10.49:447][367]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_2_1_Tropical44AA14474978E1033EF5C7BA318D0CCD.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.umap'
+[2024.11.20-19.10.49:455][367]LogFileHelpers: Saving map 'TP_2_1_Tropical' took 0.067
+[2024.11.20-19.10.49:522][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.437 ms (total: 250.300 ms)
+[2024.11.20-19.10.49:985][367]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical
+[2024.11.20-19.10.49:985][367]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.50:063][367]LogWorld: UWorld::CleanupWorld for TP_2_1_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.50:063][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.50:063][367]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.50:063][367]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.50:081][367]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.50:084][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.11.20-19.10.50:087][367]LogWorld: UWorld::CleanupWorld for TP_2_2_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.50:087][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.50:104][367]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.11.20-19.10.50:124][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.10.50:128][367]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_2_2_Tropical'.
+[2024.11.20-19.10.50:128][367]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.50:200][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.50:262][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.20-19.10.50:270][367]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.50:270][367]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,064ms para ser concluída.
+[2024.11.20-19.10.50:341][367]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.10.50:341][367]LogContentValidation: Enabled validators:
+[2024.11.20-19.10.50:341][367]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.10.50:341][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.10.50:341][367]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.10.52:047][460]Cmd: EDIT PASTE
+[2024.11.20-19.10.57:824][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.11.20-19.10.59:424][745]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.10.59:436][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.10.59:538][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.20-19.10.59:542][745]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical_C'
+[2024.11.20-19.10.59:542][745]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical_C'
+[2024.11.20-19.10.59:544][745]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical
+[2024.11.20-19.10.59:545][745]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_2_2_TropicalCF33DD32458F533EF2E09387147241C6.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.umap'
+[2024.11.20-19.10.59:553][745]LogFileHelpers: Saving map 'TP_2_2_Tropical' took 0.066
+[2024.11.20-19.10.59:602][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.338 ms (total: 416.638 ms)
+[2024.11.20-19.10.59:612][745]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical
+[2024.11.20-19.10.59:612][745]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.10.59:647][745]LogWorld: UWorld::CleanupWorld for TP_2_2_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.59:647][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.59:647][745]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.10.59:647][745]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.10.59:661][745]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.10.59:664][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2024.11.20-19.10.59:666][745]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.10.59:666][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.10.59:682][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.11.20-19.10.59:701][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.11.20-19.10.59:705][745]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_Intro_Tropical'.
+[2024.11.20-19.10.59:706][745]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.10.59:745][745]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.10.59:764][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.11.20-19.10.59:772][745]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.10.59:772][745]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,061ms para ser concluída.
+[2024.11.20-19.10.59:840][745]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.10.59:840][745]LogContentValidation: Enabled validators:
+[2024.11.20-19.10.59:840][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.10.59:840][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.10.59:840][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.11.01:068][817]Cmd: EDIT PASTE
+[2024.11.20-19.11.04:630][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.11.20-19.11.05:396][ 23]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.11.05:408][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.11.05:505][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.20-19.11.05:509][ 23]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical_C'
+[2024.11.20-19.11.05:509][ 23]LogWorldPartition: Can't find class descriptor '/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical_C' for saving '/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical_C'
+[2024.11.20-19.11.05:512][ 23]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical
+[2024.11.20-19.11.05:512][ 23]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_Intro_Tropical650906C94B8D4120B7788EA919FF26AD.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.umap'
+[2024.11.20-19.11.05:521][ 23]LogFileHelpers: Saving map 'TP_Intro_Tropical' took 0.069
+[2024.11.20-19.11.05:531][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.927 ms (total: 538.566 ms)
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: Enabled validators:
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.11.05:585][ 23]LogContentValidation: Display: Validating asset /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical
+[2024.11.20-19.11.05:585][ 23]AssetCheck: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical Validando ativo
+[2024.11.20-19.40.41:324][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.20-19.40.41:351][287]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMap.SolarPunkMap
+[2024.11.20-19.40.41:351][287]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.40.41:422][287]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.40.41:423][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.40.41:423][287]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.40.41:423][287]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.40.41:441][287]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.40.41:443][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.11.20-19.40.41:445][287]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.40.41:445][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.40.41:465][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.20-19.40.41:548][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.20-19.40.41:565][287]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMap'.
+[2024.11.20-19.40.41:565][287]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.40.41:610][287]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.40.41:631][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.20-19.40.41:638][287]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.40.41:638][287]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,066ms para ser concluída.
+[2024.11.20-19.40.46:141][527]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/SolarPunkMap.SolarPunkMap:PersistentLevel.SolarPunkMap
+[2024.11.20-19.40.55:150][ 51]LogSlate: Window 'SolarPunkMap' being destroyed
+[2024.11.20-19.40.55:160][ 51]LogSlate: Window 'SolarPunkMap' being destroyed
+[2024.11.20-19.40.55:167][ 51]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.40.55:167][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.40.55:222][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.40.58:670][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.40.58:680][254]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical
+[2024.11.20-19.40.58:680][254]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.40.58:713][254]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.40.58:713][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.40.58:713][254]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.40.58:713][254]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.40.58:725][254]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.40.58:728][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.11.20-19.40.58:730][254]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.40.58:730][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.40.58:749][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.20-19.40.58:768][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.40.58:845][254]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_Intro_Tropical'.
+[2024.11.20-19.40.58:845][254]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.40.58:885][254]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.40.58:908][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.20-19.40.58:915][254]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.40.58:915][254]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,06ms para ser concluída.
+[2024.11.20-19.41.07:570][765]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical:PersistentLevel.TP_Intro_Tropical
+[2024.11.20-19.41.28:858][694]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\enzor\Downloads\(loop) Tropical WIP.wav)
+[2024.11.20-19.41.28:952][694]LogAudioDerivedData: Display: Criando hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END de formato de áudio BINKA compactado _loop__Tropical_WIP...
+[2024.11.20-19.41.29:383][694]LogAudio: Display: Chunk stats for (SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=8, Chunk0=28 bytes, Chunk1=261983 bytes, ChunkN=261555)
+[2024.11.20-19.41.29:390][694]LogAudioDerivedData: Display: Criando hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END de formato de áudio BINKA compactado _loop__Tropical_WIP...
+[2024.11.20-19.41.29:806][697]LogAudio: Display: Chunk stats for (SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=8, Chunk0=28 bytes, Chunk1=261983 bytes, ChunkN=261555)
+[2024.11.20-19.41.31:640][732]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\enzor\Downloads\(intro + loop)Tropical WIP.wav)
+[2024.11.20-19.41.31:742][732]LogAudioDerivedData: Display: Criando hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END de formato de áudio BINKA compactado _intro_+_loop_Tropical_WIP...
+[2024.11.20-19.41.32:195][732]LogAudio: Display: Chunk stats for (SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=8, Chunk0=28 bytes, Chunk1=261897 bytes, ChunkN=261643)
+[2024.11.20-19.41.32:200][732]LogAudioDerivedData: Display: Criando hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END de formato de áudio BINKA compactado _intro_+_loop_Tropical_WIP...
+[2024.11.20-19.41.32:657][735]LogAudio: Display: Chunk stats for (SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=8, Chunk0=28 bytes, Chunk1=261897 bytes, ChunkN=261643)
+[2024.11.20-19.41.46:593][485]LogAudioDerivedData: Display: Criando hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END de formato de áudio BINKA compactado _intro__SolarPunk_musica...
+[2024.11.20-19.41.46:593][485]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Solar/_intro__SolarPunk_musica._intro__SolarPunk_musica
+[2024.11.20-19.41.46:733][485]LogAudio: Display: Chunk stats for (SoundWave /Game/Som/TrilhaSonora/Solar/_intro__SolarPunk_musica._intro__SolarPunk_musica: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=4, Chunk0=28 bytes, Chunk1=261609 bytes, ChunkN=261023)
+[2024.11.20-19.42.04:885][446]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Solar/_completa__SolarPunk_musica._completa__SolarPunk_musica
+[2024.11.20-19.42.15:015][ 25]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP
+[2024.11.20-19.42.37:295][279]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP
+[2024.11.20-19.42.58:418][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.20-19.42.59:370][537]LogSlate: Window '_loop__Tropical_WIP' being destroyed
+[2024.11.20-19.42.59:379][537]LogSlate: Window '_loop__Tropical_WIP' being destroyed
+[2024.11.20-19.42.59:387][537]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.42.59:387][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.42.59:465][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.20-19.43.00:841][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.43.02:073][618]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.43.02:084][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.43.02:197][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.11.20-19.43.02:205][618]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical
+[2024.11.20-19.43.02:205][618]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_Intro_Tropical61422EE84C5575A55CA10CA863244D31.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.umap'
+[2024.11.20-19.43.02:212][618]LogFileHelpers: Saving map 'TP_Intro_Tropical' took 0.068
+[2024.11.20-19.43.02:213][618]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP] ([1] browsable assets)...
+[2024.11.20-19.43.02:232][618]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP]
+[2024.11.20-19.43.02:233][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP]
+[2024.11.20-19.43.02:260][618]LogSavePackage: Moving output files for package: /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP
+[2024.11.20-19.43.02:260][618]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/_intro_+_loop_Tropical_WIPAE872B83441D1DF1AE08D9B3E5B738AB.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP.uasset'
+[2024.11.20-19.43.02:262][618]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP] ([1] browsable assets)...
+[2024.11.20-19.43.02:280][618]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP]
+[2024.11.20-19.43.02:280][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP]
+[2024.11.20-19.43.02:303][618]LogSavePackage: Moving output files for package: /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP
+[2024.11.20-19.43.02:303][618]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/_loop__Tropical_WIP2FA8E0444ED16FF5A413848876089AEE.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP.uasset'
+[2024.11.20-19.43.02:313][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 228.576 ms (total: 767.142 ms)
+[2024.11.20-19.43.02:376][618]LogContentValidation: Display: Starting to validate 3 assets
+[2024.11.20-19.43.02:376][618]LogContentValidation: Enabled validators:
+[2024.11.20-19.43.02:376][618]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.43.02:376][618]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.43.02:376][618]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.43.02:376][618]LogContentValidation: Display: Validating asset /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical
+[2024.11.20-19.43.02:376][618]AssetCheck: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical Validando ativo
+[2024.11.20-19.43.02:376][618]LogContentValidation: Display: Validating asset /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP
+[2024.11.20-19.43.02:376][618]AssetCheck: /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP Validando ativo
+[2024.11.20-19.43.02:376][618]LogContentValidation: Display: Validating asset /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP
+[2024.11.20-19.43.02:376][618]AssetCheck: /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP Validando ativo
+[2024.11.20-19.43.03:391][675]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.43.03:400][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.43.03:401][675]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical
+[2024.11.20-19.43.03:403][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002351s)
+[2024.11.20-19.43.03:403][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical to /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical.TP_Intro_Tropical (0.002382s)
+[2024.11.20-19.43.03:421][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.43.03:422][675]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.43.03:423][675]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2024.11.20-19.43.03:423][675]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.43.03:423][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.43.03:423][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.43.03:423][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.43.03:423][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.43.03:423][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.43.03:425][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.43.03:487][675]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.43.03:488][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.43.03:488][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.43.03:488][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.43.03:488][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.20-19.43.03:488][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.20-19.43.03:489][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.20-19.43.03:489][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.20-19.43.03:489][675]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.20-19.43.03:489][675]LogAudio: Display: Audio Device (ID: 3) registered with world 'TP_Intro_Tropical'.
+[2024.11.20-19.43.03:489][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.20-19.43.03:492][675]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.43.03:496][675]LogWorld: Bringing World /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical.TP_Intro_Tropical up for play (max tick rate 60) at 2024.11.20-16.43.03
+[2024.11.20-19.43.03:496][675]LogWorld: Bringing up level for play took: 0.003511
+[2024.11.20-19.43.03:498][675]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.20-19.43.03:515][675]PIE: Servidor conectado
+[2024.11.20-19.43.03:515][675]PIE: Tempo inicial total de reprodução no editor: 0,115 s
+[2024.11.20-19.43.05:281][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.43.05:281][778]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical
+[2024.11.20-19.43.05:281][778]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.05:281][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.05:281][778]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.43.05:281][778]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.43.05:284][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.43.05:288][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.05:304][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.43.05:304][778]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.20-19.43.05:304][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.20-19.43.05:306][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.20-19.43.05:322][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.20-19.43.05:359][779]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.20-19.43.18:280][942]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.43.18:291][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.43.18:291][942]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical
+[2024.11.20-19.43.18:293][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2024.11.20-19.43.18:293][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical.TP_Intro_Tropical to /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical.TP_Intro_Tropical (0.001854s)
+[2024.11.20-19.43.18:311][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.11.20-19.43.18:312][942]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.43.18:312][942]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2024.11.20-19.43.18:312][942]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.11.20-19.43.18:312][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.43.18:312][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.43.18:312][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.43.18:312][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.43.18:313][942]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.43.18:313][942]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.43.18:313][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.43.18:313][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.43.18:313][942]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.43.18:313][942]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.43.18:313][942]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.43.18:314][942]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.43.18:379][942]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.43.18:379][942]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.43.18:381][942]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.43.18:381][942]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.43.18:381][942]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.11.20-19.43.18:381][942]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.11.20-19.43.18:382][942]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.11.20-19.43.18:382][942]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.11.20-19.43.18:382][942]LogInit: FAudioDevice initialized with ID 4.
+[2024.11.20-19.43.18:383][942]LogAudio: Display: Audio Device (ID: 4) registered with world 'TP_Intro_Tropical'.
+[2024.11.20-19.43.18:383][942]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.20-19.43.18:385][942]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.43.18:388][942]LogWorld: Bringing World /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical.TP_Intro_Tropical up for play (max tick rate 60) at 2024.11.20-16.43.18
+[2024.11.20-19.43.18:388][942]LogWorld: Bringing up level for play took: 0.003900
+[2024.11.20-19.43.18:390][942]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.11.20-19.43.18:407][942]PIE: Servidor conectado
+[2024.11.20-19.43.18:409][942]PIE: Tempo inicial total de reprodução no editor: 0,118 s
+[2024.11.20-19.43.24:980][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.43.24:980][334]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical
+[2024.11.20-19.43.24:980][334]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.24:980][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.24:980][334]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.43.24:980][334]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.43.24:985][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.43.24:989][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.25:007][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.43.25:007][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.20-19.43.25:007][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.20-19.43.25:009][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.20-19.43.25:038][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.20-19.43.25:075][335]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.11.20-19.43.36:007][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.20-19.43.36:022][983]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical
+[2024.11.20-19.43.36:023][983]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.43.36:063][983]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.36:063][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.36:063][983]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.43.36:063][983]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.43.36:080][983]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.43.36:083][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.11.20-19.43.36:084][983]LogWorld: UWorld::CleanupWorld for TP_2_1_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.36:084][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.36:104][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.20-19.43.36:199][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.20-19.43.36:205][983]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_2_1_Tropical'.
+[2024.11.20-19.43.36:205][983]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.43.36:249][983]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.43.36:273][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.43.36:280][983]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.43.36:280][983]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,065ms para ser concluída.
+[2024.11.20-19.43.39:122][144]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.TP_2_1_Tropical:PersistentLevel.TP_2_1_Tropical
+[2024.11.20-19.43.48:836][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.20-19.43.49:720][737]LogSlate: Window 'TP_2_1_Tropical' being destroyed
+[2024.11.20-19.43.49:729][737]LogSlate: Window 'TP_2_1_Tropical' being destroyed
+[2024.11.20-19.43.49:736][737]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.49:736][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.49:778][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.43.51:859][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.11.20-19.43.52:946][859]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.43.52:958][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.43.53:064][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.20-19.43.53:073][859]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical
+[2024.11.20-19.43.53:074][859]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_2_1_Tropical15EB1B2447A6A3412DC432BB792438FD.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical.umap'
+[2024.11.20-19.43.53:082][859]LogFileHelpers: Saving map 'TP_2_1_Tropical' took 0.068
+[2024.11.20-19.43.53:146][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 188.948 ms (total: 956.091 ms)
+[2024.11.20-19.43.53:186][859]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical
+[2024.11.20-19.43.53:186][859]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.43.53:232][859]LogWorld: UWorld::CleanupWorld for TP_2_1_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.53:232][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.53:232][859]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.43.53:232][859]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.43.53:246][859]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.43.53:248][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.11.20-19.43.53:250][859]LogWorld: UWorld::CleanupWorld for TP_2_2_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.43.53:250][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.43.53:271][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.20-19.43.53:288][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.20-19.43.53:293][859]LogAudio: Display: Audio Device (ID: 1) registered with world 'TP_2_2_Tropical'.
+[2024.11.20-19.43.53:293][859]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.43.53:379][859]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.43.53:459][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.20-19.43.53:469][859]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.43.53:469][859]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,092ms para ser concluída.
+[2024.11.20-19.43.53:529][859]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.43.53:529][859]LogContentValidation: Enabled validators:
+[2024.11.20-19.43.53:529][859]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.43.53:529][859]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.43.53:529][859]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.44.00:513][227]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical:PersistentLevel.TP_2_2_Tropical
+[2024.11.20-19.44.10:517][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.20-19.44.10:928][745]LogSlate: Window 'TP_2_2_Tropical' being destroyed
+[2024.11.20-19.44.10:951][745]LogSlate: Window 'TP_2_2_Tropical' being destroyed
+[2024.11.20-19.44.10:958][745]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.10:958][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.11:002][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.20-19.44.12:334][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.11.20-19.44.13:200][823]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.44.13:212][823]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.44.13:326][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.20-19.44.13:333][823]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical
+[2024.11.20-19.44.13:334][823]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/TP_2_2_TropicalE1F1E8AC4176580CB699EEA2EF073F47.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.umap'
+[2024.11.20-19.44.13:343][823]LogFileHelpers: Saving map 'TP_2_2_Tropical' took 0.068
+[2024.11.20-19.44.13:351][823]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.034 ms (total: 1.09 sec)
+[2024.11.20-19.44.13:390][823]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.44.13:390][823]LogContentValidation: Enabled validators:
+[2024.11.20-19.44.13:390][823]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.44.13:390][823]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.44.13:390][823]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.44.13:390][823]LogContentValidation: Display: Validating asset /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical.TP_2_2_Tropical
+[2024.11.20-19.44.13:390][823]AssetCheck: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical Validando ativo
+[2024.11.20-19.44.29:504][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.20-19.44.29:518][703]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2024.11.20-19.44.29:518][703]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.44.29:555][703]LogWorld: UWorld::CleanupWorld for TP_2_2_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.29:555][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.29:555][703]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.44.29:555][703]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.44.29:574][703]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.44.29:578][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2024.11.20-19.44.29:582][703]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.29:582][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.29:602][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.20-19.44.29:685][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.44.29:699][703]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.11.20-19.44.29:699][703]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.44.29:736][703]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.44.29:753][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.20-19.44.29:761][703]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.44.29:762][703]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,073ms para ser concluída.
+[2024.11.20-19.44.31:101][781]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.44.31:111][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.44.31:111][781]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.44.31:113][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000890s)
+[2024.11.20-19.44.31:113][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000920s)
+[2024.11.20-19.44.31:130][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.20-19.44.31:131][781]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.44.31:132][781]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2024.11.20-19.44.31:132][781]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.44.31:132][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.44.31:132][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.44.31:132][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.44.31:132][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.44.31:132][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.44.31:134][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.44.31:197][781]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.44.31:197][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.44.31:197][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.44.31:197][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.44.31:197][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.20-19.44.31:197][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.20-19.44.31:198][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.20-19.44.31:198][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.20-19.44.31:198][781]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.20-19.44.31:198][781]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMenu'.
+[2024.11.20-19.44.31:198][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.20-19.44.31:201][781]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.44.31:201][781]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2024.11.20-16.44.31
+[2024.11.20-19.44.31:201][781]LogWorld: Bringing up level for play took: 0.000312
+[2024.11.20-19.44.31:203][781]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.20-19.44.31:208][781]PIE: Servidor conectado
+[2024.11.20-19.44.31:209][781]PIE: Tempo inicial total de reprodução no editor: 0,098 s
+[2024.11.20-19.44.32:512][834]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/LevelSelector"
+[2024.11.20-19.44.32:512][834]LogNet: Browse: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.44.32:512][834]LogLoad: LoadMap: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.44.32:512][834]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.44.32:513][834]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.32:513][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.32:513][834]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.44.32:513][834]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.44.32:558][834]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.44.32:561][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.44.32:574][834]LogAudio: Display: Audio Device (ID: 5) registered with world 'LevelSelector'.
+[2024.11.20-19.44.32:574][834]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.44.32:575][834]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2024.11.20-19.44.32:575][834]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.44.32:575][834]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector.LevelSelector up for play (max tick rate 60) at 2024.11.20-16.44.32
+[2024.11.20-19.44.32:575][834]LogWorld: Bringing up level for play took: 0.000466
+[2024.11.20-19.44.32:576][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.20-19.44.32:579][834]LogLoad: Took 0.067215 seconds to LoadMap(/Game/ThirdPerson/Maps/LevelSelector)
+[2024.11.20-19.44.32:579][834]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.44.33:675][900]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical"
+[2024.11.20-19.44.33:675][900]LogNet: Browse: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical
+[2024.11.20-19.44.33:675][900]LogLoad: LoadMap: /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical
+[2024.11.20-19.44.33:675][900]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector
+[2024.11.20-19.44.33:675][900]LogWorld: UWorld::CleanupWorld for LevelSelector, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.33:675][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.33:676][900]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.44.33:676][900]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.44.33:693][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.44.33:696][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.44.33:710][900]LogAudio: Display: Audio Device (ID: 5) registered with world 'TP_Intro_Tropical'.
+[2024.11.20-19.44.33:710][900]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.44.33:711][900]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2024.11.20-19.44.33:711][900]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.44.33:716][900]LogWorld: Bringing World /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical.TP_Intro_Tropical up for play (max tick rate 60) at 2024.11.20-16.44.33
+[2024.11.20-19.44.33:716][900]LogWorld: Bringing up level for play took: 0.004713
+[2024.11.20-19.44.33:732][900]LogLoad: Took 0.057558 seconds to LoadMap(/Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical)
+[2024.11.20-19.44.33:732][900]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/TP_Cenas/TP_Intro_Tropical
+[2024.11.20-19.44.54:795][164]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
+[2024.11.20-19.44.54:795][164]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.11.20-19.44.54:795][164]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.11.20-19.44.54:795][164]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_Intro_Tropical
+[2024.11.20-19.44.54:795][164]LogWorld: UWorld::CleanupWorld for TP_Intro_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.44.54:796][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.44.54:796][164]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.44.54:796][164]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.44.54:844][164]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.44.54:846][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.11.20-19.44.54:870][164]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.11.20-19.44.54:870][164]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.44.54:872][164]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.44.54:872][164]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.44.54:872][164]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.44.54:872][164]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.44.54:875][164]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.11.20-19.44.54:878][164]LogStreaming: Display: FlushAsyncLoading(200): 98 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.44.54:942][164]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 67.058 ms (total: 136.546 ms)
+[2024.11.20-19.44.54:948][164]LogContentBundle: [ThirdPersonMap(Autônomo)] Creating new container.
+[2024.11.20-19.44.54:948][164]LogWorldPartition: Display: WorldPartition initialize took 75.840 ms (total: 402.915 ms)
+[2024.11.20-19.44.54:948][164]LogPlayLevel: PIE: World Init took: (0.076778s)
+[2024.11.20-19.44.54:948][164]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.44.54:982][164]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.11.20-16.44.54
+[2024.11.20-19.44.54:982][164]LogWorld: Bringing up level for play took: 0.034529
+[2024.11.20-19.44.54:986][164]LogLoad: Took 0.191718 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.11.20-19.44.54:986][164]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.11.20-19.45.24:601][940]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMap"
+[2024.11.20-19.45.24:601][940]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMap
+[2024.11.20-19.45.24:601][940]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMap
+[2024.11.20-19.45.24:602][940]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.11.20-19.45.24:602][940]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.45.24:603][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.45.24:603][940]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.11.20-19.45.24:604][940]LogContentBundle: [ThirdPersonMap(Autônomo)] Deleting container.
+[2024.11.20-19.45.24:604][940]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.45.24:604][940]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.45.24:648][940]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.45.24:656][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.20-19.45.24:672][940]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMap'.
+[2024.11.20-19.45.24:672][940]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.45.24:673][940]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2024.11.20-19.45.24:673][940]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.45.24:681][940]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMap.SolarPunkMap up for play (max tick rate 60) at 2024.11.20-16.45.24
+[2024.11.20-19.45.24:682][940]LogWorld: Bringing up level for play took: 0.009044
+[2024.11.20-19.45.24:691][940]LogLoad: Took 0.089376 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMap)
+[2024.11.20-19.45.24:691][940]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMap
+[2024.11.20-19.45.45:427][184]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel1_2"
+[2024.11.20-19.45.45:427][184]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel1_2
+[2024.11.20-19.45.45:427][184]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel1_2
+[2024.11.20-19.45.45:427][184]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMap
+[2024.11.20-19.45.45:427][184]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.45.45:427][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.45.45:427][184]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.45.45:427][184]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.45.45:477][184]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.45.45:481][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.11.20-19.45.45:818][184]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel1_2'.
+[2024.11.20-19.45.45:819][184]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.45.45:821][184]LogWorldPartition: ULevel::OnLevelLoaded(Nivel1_2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.45.45:821][184]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.45.45:821][184]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel1_2.Nivel1_2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.45.45:821][184]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.45.45:824][184]LogWorldPartition: Display: GenerateStreaming for 'Nivel1_2' started...
+[2024.11.20-19.45.45:839][184]LogStreaming: Display: FlushAsyncLoading(298): 30 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.45.46:538][184]LogWorldPartition: Display: GenerateStreaming for 'Nivel1_2' took 715.112 ms (total: 851.658 ms)
+[2024.11.20-19.45.46:542][184]LogContentBundle: [Nivel1_2(Autônomo)] Creating new container.
+[2024.11.20-19.45.46:542][184]LogWorldPartition: Display: WorldPartition initialize took 721.236 ms (total: 1.12 sec)
+[2024.11.20-19.45.46:542][184]LogPlayLevel: PIE: World Init took: (0.722951s)
+[2024.11.20-19.45.46:542][184]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.45.46:559][184]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel1_2.Nivel1_2 up for play (max tick rate 60) at 2024.11.20-16.45.46
+[2024.11.20-19.45.46:559][184]LogWorld: Bringing up level for play took: 0.011065
+[2024.11.20-19.45.46:564][184]LogLoad: Took 1.137049 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel1_2)
+[2024.11.20-19.45.46:564][184]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel1_2
+[2024.11.20-19.45.53:328][588]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2"
+[2024.11.20-19.45.53:328][588]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.45.53:328][588]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.45.53:328][588]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel1_2
+[2024.11.20-19.45.53:329][588]LogWorld: UWorld::CleanupWorld for Nivel1_2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.45.53:329][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.45.53:329][588]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel1_2.Nivel1_2
+[2024.11.20-19.45.53:329][588]LogContentBundle: [Nivel1_2(Autônomo)] Deleting container.
+[2024.11.20-19.45.53:329][588]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.45.53:329][588]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.45.53:368][588]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.45.53:372][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.11.20-19.45.53:396][588]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2'.
+[2024.11.20-19.45.53:396][588]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.45.53:397][588]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.45.53:397][588]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.45.53:397][588]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.45.53:397][588]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.45.53:410][588]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.45.53:425][588]LogStreaming: Display: FlushAsyncLoading(328): 428 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.45.53:834][588]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 422.969 ms (total: 1.27 sec)
+[2024.11.20-19.45.53:852][588]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.45.53:852][588]LogWorldPartition: Display: WorldPartition initialize took 455.089 ms (total: 1.57 sec)
+[2024.11.20-19.45.53:852][588]LogPlayLevel: PIE: World Init took: (0.456044s)
+[2024.11.20-19.45.53:852][588]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio1/predio_1_predio1.predio_1_predio1 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Arcos_Lapa/arcos_da_lapa_Cube_076.arcos_da_lapa_Cube_076 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_portao2.predio2_portao2 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Arcos_Lapa/arcos_da_lapa_Cube_074.arcos_da_lapa_Cube_074 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_tampa_caixa.predio2_tampa_caixa being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Arcos_Lapa/arcos_da_lapa_Cube_075.arcos_da_lapa_Cube_075 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio1/predio_1_portao1.predio_1_portao1 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_ponta_da_antena.predio2_ponta_da_antena being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_janela_base.predio2_janela_base being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_antena.predio2_antena being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Arcos_Lapa/arcos_da_lapa_Cube_073.arcos_da_lapa_Cube_073 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_letreiro1.predio2_letreiro1 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_letreiro3.predio2_letreiro3 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_portao3.predio2_portao3 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_janela_2.predio2_janela_2 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_portao4.predio2_portao4 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_caixa_dagua.predio2_caixa_dagua being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_janela1.predio2_janela1 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_letreiro2.predio2_letreiro2 being ready before playing
+[2024.11.20-19.45.53:872][588]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/3D_Assests/Predio2/predio2_predio2.predio2_predio2 being ready before playing
+[2024.11.20-19.45.53:991][588]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.45.53
+[2024.11.20-19.45.53:992][588]LogWorld: Bringing up level for play took: 0.118002
+[2024.11.20-19.45.53:996][588]LogLoad: Took 0.667881 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2)
+[2024.11.20-19.45.53:996][588]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.46.21:132][213]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMapNv2_2"
+[2024.11.20-19.46.21:132][213]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMapNv2_2
+[2024.11.20-19.46.21:132][213]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMapNv2_2
+[2024.11.20-19.46.21:132][213]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.46.21:133][213]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.46.21:136][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.46.21:136][213]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.46.21:138][213]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.46.21:138][213]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.46.21:138][213]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.46.21:188][213]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.46.21:205][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.20-19.46.21:222][213]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMapNv2_2'.
+[2024.11.20-19.46.21:222][213]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.46.21:223][213]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2024.11.20-19.46.21:223][213]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.46.21:234][213]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_2.SolarPunkMapNv2_2 up for play (max tick rate 60) at 2024.11.20-16.46.21
+[2024.11.20-19.46.21:234][213]LogWorld: Bringing up level for play took: 0.010208
+[2024.11.20-19.46.21:244][213]LogLoad: Took 0.112257 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMapNv2_2)
+[2024.11.20-19.46.21:244][213]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMapNv2_2
+[2024.11.20-19.46.41:278][415]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2_p1"
+[2024.11.20-19.46.41:278][415]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.46.41:278][415]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.46.41:278][415]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_2
+[2024.11.20-19.46.41:278][415]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.46.41:278][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.46.41:279][415]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.46.41:279][415]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.46.41:324][415]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.46.41:326][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.20-19.46.41:351][415]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2_p1'.
+[2024.11.20-19.46.41:351][415]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.46.41:352][415]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2_p1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.46.41:352][415]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.46.41:352][415]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.46.41:352][415]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.46.41:358][415]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p1' started...
+[2024.11.20-19.46.41:364][415]LogStreaming: Display: FlushAsyncLoading(756): 183 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.46.41:474][415]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p1' took 116.365 ms (total: 1.39 sec)
+[2024.11.20-19.46.41:480][415]LogContentBundle: [Nivel2_p1(Autônomo)] Creating new container.
+[2024.11.20-19.46.41:480][415]LogWorldPartition: Display: WorldPartition initialize took 128.913 ms (total: 1.70 sec)
+[2024.11.20-19.46.41:480][415]LogPlayLevel: PIE: World Init took: (0.129925s)
+[2024.11.20-19.46.41:480][415]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.46.41:508][415]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1 up for play (max tick rate 60) at 2024.11.20-16.46.41
+[2024.11.20-19.46.41:508][415]LogWorld: Bringing up level for play took: 0.027186
+[2024.11.20-19.46.41:513][415]LogLoad: Took 0.234156 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2_p1)
+[2024.11.20-19.46.41:513][415]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.46.51:692][ 25]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical"
+[2024.11.20-19.46.51:692][ 25]LogNet: Browse: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical
+[2024.11.20-19.46.51:692][ 25]LogLoad: LoadMap: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical
+[2024.11.20-19.46.51:692][ 25]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1
+[2024.11.20-19.46.51:693][ 25]LogWorld: UWorld::CleanupWorld for Nivel2_p1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.46.51:694][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.46.51:694][ 25]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1
+[2024.11.20-19.46.51:695][ 25]LogContentBundle: [Nivel2_p1(Autônomo)] Deleting container.
+[2024.11.20-19.46.51:695][ 25]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.46.51:695][ 25]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.46.51:734][ 25]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.46.51:741][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.20-19.46.51:757][ 25]LogAudio: Display: Audio Device (ID: 5) registered with world 'TP_2_2_Tropical'.
+[2024.11.20-19.46.51:757][ 25]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.46.51:758][ 25]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2024.11.20-19.46.51:758][ 25]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.46.51:814][ 25]LogWorld: Bringing World /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_2_2_Tropical.TP_2_2_Tropical up for play (max tick rate 60) at 2024.11.20-16.46.51
+[2024.11.20-19.46.51:814][ 25]LogWorld: Bringing up level for play took: 0.055668
+[2024.11.20-19.46.52:059][ 25]LogLoad: Took 0.367463 seconds to LoadMap(/Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical)
+[2024.11.20-19.46.52:059][ 25]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/TP_Cenas/TP_2_2_Tropical
+[2024.11.20-19.47.54:633][779]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2_p2"
+[2024.11.20-19.47.54:633][779]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2_p2
+[2024.11.20-19.47.54:633][779]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2_p2
+[2024.11.20-19.47.54:633][779]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_2_2_Tropical
+[2024.11.20-19.47.54:634][779]LogWorld: UWorld::CleanupWorld for TP_2_2_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.47.54:634][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.47.54:634][779]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.47.54:634][779]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.47.54:653][779]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.47.54:656][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.11.20-19.47.54:682][779]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2_p2'.
+[2024.11.20-19.47.54:682][779]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.47.54:683][779]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2_p2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.47.54:683][779]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.47.54:683][779]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p2.Nivel2_p2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.47.54:683][779]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.47.54:685][779]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p2' started...
+[2024.11.20-19.47.54:687][779]LogStreaming: Display: FlushAsyncLoading(939): 56 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.47.54:722][779]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p2' took 36.845 ms (total: 1.42 sec)
+[2024.11.20-19.47.54:725][779]LogContentBundle: [Nivel2_p2(Autônomo)] Creating new container.
+[2024.11.20-19.47.54:725][779]LogWorldPartition: Display: WorldPartition initialize took 41.589 ms (total: 1.74 sec)
+[2024.11.20-19.47.54:725][779]LogPlayLevel: PIE: World Init took: (0.042552s)
+[2024.11.20-19.47.54:725][779]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.47.54:739][779]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p2.Nivel2_p2 up for play (max tick rate 60) at 2024.11.20-16.47.54
+[2024.11.20-19.47.54:739][779]LogWorld: Bringing up level for play took: 0.013934
+[2024.11.20-19.47.54:743][779]LogLoad: Took 0.109933 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2_p2)
+[2024.11.20-19.47.54:743][779]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2_p2
+[2024.11.20-19.48.04:481][363]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMapNv2_3"
+[2024.11.20-19.48.04:481][363]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMapNv2_3
+[2024.11.20-19.48.04:481][363]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMapNv2_3
+[2024.11.20-19.48.04:481][363]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p2
+[2024.11.20-19.48.04:482][363]LogWorld: UWorld::CleanupWorld for Nivel2_p2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.04:482][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.04:482][363]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p2.Nivel2_p2
+[2024.11.20-19.48.04:482][363]LogContentBundle: [Nivel2_p2(Autônomo)] Deleting container.
+[2024.11.20-19.48.04:482][363]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.04:482][363]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.04:526][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.04:529][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.20-19.48.04:547][363]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMapNv2_3'.
+[2024.11.20-19.48.04:547][363]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.04:548][363]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2024.11.20-19.48.04:548][363]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.48.04:556][363]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3.SolarPunkMapNv2_3 up for play (max tick rate 60) at 2024.11.20-16.48.04
+[2024.11.20-19.48.04:556][363]LogWorld: Bringing up level for play took: 0.008137
+[2024.11.20-19.48.04:558][363]LogLoad: Took 0.076883 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMapNv2_3)
+[2024.11.20-19.48.04:558][363]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMapNv2_3
+[2024.11.20-19.48.09:154][639]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/MainMenu"
+[2024.11.20-19.48.09:154][639]LogNet: Browse: /Game/ThirdPerson/Maps/MainMenu
+[2024.11.20-19.48.09:154][639]LogLoad: LoadMap: /Game/ThirdPerson/Maps/MainMenu
+[2024.11.20-19.48.09:154][639]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3
+[2024.11.20-19.48.09:155][639]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.09:155][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.09:155][639]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.09:155][639]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.09:195][639]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.09:197][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.48.09:199][639]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.48.09:200][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000870s)
+[2024.11.20-19.48.09:200][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000906s)
+[2024.11.20-19.48.09:200][639]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMenu'.
+[2024.11.20-19.48.09:200][639]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.09:200][639]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2024.11.20-19.48.09:200][639]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.48.09:200][639]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2024.11.20-16.48.09
+[2024.11.20-19.48.09:200][639]LogWorld: Bringing up level for play took: 0.000289
+[2024.11.20-19.48.09:202][639]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.20-19.48.09:206][639]LogLoad: Took 0.051081 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_MainMenu)
+[2024.11.20-19.48.09:206][639]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.48.11:735][791]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/LevelSelector"
+[2024.11.20-19.48.11:735][791]LogNet: Browse: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.48.11:735][791]LogLoad: LoadMap: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.48.11:735][791]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.48.11:735][791]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.11:735][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.11:736][791]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.11:736][791]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.11:778][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.11:780][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.20-19.48.11:792][791]LogAudio: Display: Audio Device (ID: 5) registered with world 'LevelSelector'.
+[2024.11.20-19.48.11:792][791]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.11:793][791]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2024.11.20-19.48.11:793][791]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.48.11:794][791]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector.LevelSelector up for play (max tick rate 60) at 2024.11.20-16.48.11
+[2024.11.20-19.48.11:794][791]LogWorld: Bringing up level for play took: 0.000443
+[2024.11.20-19.48.11:794][791]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.20-19.48.11:798][791]LogLoad: Took 0.063082 seconds to LoadMap(/Game/ThirdPerson/Maps/LevelSelector)
+[2024.11.20-19.48.11:798][791]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.48.13:209][876]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2"
+[2024.11.20-19.48.13:210][876]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.13:210][876]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.13:210][876]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector
+[2024.11.20-19.48.13:210][876]LogWorld: UWorld::CleanupWorld for LevelSelector, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.13:210][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.13:210][876]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.13:210][876]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.13:228][876]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.13:231][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.20-19.48.13:254][876]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2'.
+[2024.11.20-19.48.13:255][876]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.13:255][876]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.48.13:255][876]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.48.13:255][876]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.48.13:255][876]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.48.13:267][876]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.48.13:305][876]LogStreaming: Display: FlushAsyncLoading(995): 428 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.48.13:568][876]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 301.120 ms (total: 1.72 sec)
+[2024.11.20-19.48.13:588][876]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.48.13:588][876]LogWorldPartition: Display: WorldPartition initialize took 331.901 ms (total: 2.08 sec)
+[2024.11.20-19.48.13:588][876]LogPlayLevel: PIE: World Init took: (0.332866s)
+[2024.11.20-19.48.13:588][876]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.48.13:692][876]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.48.13
+[2024.11.20-19.48.13:692][876]LogWorld: Bringing up level for play took: 0.104158
+[2024.11.20-19.48.13:697][876]LogLoad: Took 0.487245 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2)
+[2024.11.20-19.48.13:697][876]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.25:065][557]Cmd: restartlevel
+[2024.11.20-19.48.25:066][557]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2?restart"
+[2024.11.20-19.48.25:066][557]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2?restart
+[2024.11.20-19.48.25:066][557]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.25:066][557]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.48.25:067][557]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.25:069][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.25:069][557]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.48.25:072][557]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.48.25:072][557]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.25:072][557]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.25:129][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.25:141][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.20-19.48.25:168][557]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2'.
+[2024.11.20-19.48.25:168][557]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.25:168][557]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.48.25:168][557]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.48.25:168][557]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.48.25:168][557]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.48.25:180][557]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.48.25:197][557]LogStreaming: Display: FlushAsyncLoading(1423): 428 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.48.25:466][557]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 285.665 ms (total: 2.01 sec)
+[2024.11.20-19.48.25:490][557]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.48.25:490][557]LogWorldPartition: Display: WorldPartition initialize took 321.399 ms (total: 2.40 sec)
+[2024.11.20-19.48.25:490][557]LogPlayLevel: PIE: World Init took: (0.322348s)
+[2024.11.20-19.48.25:490][557]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.48.25:592][557]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.48.25
+[2024.11.20-19.48.25:593][557]LogWorld: Bringing up level for play took: 0.102530
+[2024.11.20-19.48.25:598][557]LogLoad: Took 0.531774 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2)
+[2024.11.20-19.48.25:598][557]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.35:548][153]Cmd: restartlevel
+[2024.11.20-19.48.35:563][153]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2?restart"
+[2024.11.20-19.48.35:563][153]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2?restart
+[2024.11.20-19.48.35:563][153]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.35:563][153]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.48.35:564][153]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.35:566][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.35:566][153]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.48.35:568][153]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.48.35:568][153]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.35:569][153]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.35:613][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.35:624][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.48.35:649][153]LogAudio: Display: Audio Device (ID: 5) registered with world 'Nivel2'.
+[2024.11.20-19.48.35:649][153]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.35:649][153]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.48.35:649][153]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.48.35:649][153]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.48.35:649][153]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.48.35:661][153]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.48.35:674][153]LogStreaming: Display: FlushAsyncLoading(1851): 428 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.48.35:937][153]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 275.951 ms (total: 2.29 sec)
+[2024.11.20-19.48.35:956][153]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.48.35:956][153]LogWorldPartition: Display: WorldPartition initialize took 306.587 ms (total: 2.70 sec)
+[2024.11.20-19.48.35:956][153]LogPlayLevel: PIE: World Init took: (0.307544s)
+[2024.11.20-19.48.35:956][153]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.48.36:061][153]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.48.36
+[2024.11.20-19.48.36:061][153]LogWorld: Bringing up level for play took: 0.103952
+[2024.11.20-19.48.36:066][153]LogLoad: Took 0.502693 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2)
+[2024.11.20-19.48.36:066][153]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.48.47:627][846]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMapNv2_1"
+[2024.11.20-19.48.47:627][846]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.48.47:627][846]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.48.47:627][846]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.48.47:628][846]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.47:631][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.47:631][846]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.48.47:633][846]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.48.47:633][846]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.47:633][846]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.47:681][846]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.47:694][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.20-19.48.47:711][846]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMapNv2_1'.
+[2024.11.20-19.48.47:711][846]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.47:712][846]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2024.11.20-19.48.47:712][846]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.48.47:720][846]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1.SolarPunkMapNv2_1 up for play (max tick rate 60) at 2024.11.20-16.48.47
+[2024.11.20-19.48.47:720][846]LogWorld: Bringing up level for play took: 0.007724
+[2024.11.20-19.48.47:734][846]LogLoad: Took 0.107451 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMapNv2_1)
+[2024.11.20-19.48.47:734][846]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.48.53:182][173]Cmd: restartlevel
+[2024.11.20-19.48.53:198][174]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMapNv2_1?restart"
+[2024.11.20-19.48.53:198][174]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1?restart
+[2024.11.20-19.48.53:198][174]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.48.53:198][174]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1
+[2024.11.20-19.48.53:198][174]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.48.53:199][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.48.53:199][174]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.48.53:199][174]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.48.53:248][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.48.53:250][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.11.20-19.48.53:266][174]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMapNv2_1'.
+[2024.11.20-19.48.53:266][174]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.48.53:267][174]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2024.11.20-19.48.53:267][174]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.48.53:274][174]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1.SolarPunkMapNv2_1 up for play (max tick rate 60) at 2024.11.20-16.48.53
+[2024.11.20-19.48.53:275][174]LogWorld: Bringing up level for play took: 0.007921
+[2024.11.20-19.48.53:290][174]LogLoad: Took 0.091897 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMapNv2_1)
+[2024.11.20-19.48.53:290][174]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.49.13:455][384]Cmd: restartlevel
+[2024.11.20-19.49.13:470][385]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/SolarPunkMapNv2_1?restart"
+[2024.11.20-19.49.13:470][385]LogNet: Browse: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1?restart
+[2024.11.20-19.49.13:470][385]LogLoad: LoadMap: /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.49.13:470][385]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1
+[2024.11.20-19.49.13:471][385]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.13:471][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.13:471][385]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.49.13:471][385]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.49.13:521][385]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.49.13:523][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.20-19.49.13:540][385]LogAudio: Display: Audio Device (ID: 5) registered with world 'SolarPunkMapNv2_1'.
+[2024.11.20-19.49.13:540][385]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.49.13:541][385]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2024.11.20-19.49.13:541][385]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.49.13:549][385]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1.SolarPunkMapNv2_1 up for play (max tick rate 60) at 2024.11.20-16.49.13
+[2024.11.20-19.49.13:549][385]LogWorld: Bringing up level for play took: 0.008256
+[2024.11.20-19.49.13:563][385]LogLoad: Took 0.092655 seconds to LoadMap(/Game/ThirdPerson/Maps/SolarPunkMapNv2_1)
+[2024.11.20-19.49.13:563][385]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/SolarPunkMapNv2_1
+[2024.11.20-19.49.15:061][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.49.15:061][472]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_1
+[2024.11.20-19.49.15:061][472]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.15:061][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.15:061][472]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.49.15:061][472]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.49.15:064][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.49.15:068][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.15:084][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.49.15:084][472]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.20-19.49.15:084][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.20-19.49.15:086][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.20-19.49.15:116][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.11.20-19.49.15:147][473]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.20-19.49.16:399][547]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.49.16:408][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.49.16:408][547]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.49.16:410][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000863s)
+[2024.11.20-19.49.16:410][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000893s)
+[2024.11.20-19.49.16:426][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.11.20-19.49.16:427][547]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.49.16:428][547]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2024.11.20-19.49.16:428][547]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.49.16:428][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.49.16:428][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.49.16:428][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.49.16:428][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.49.16:428][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.49.16:430][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.49.16:495][547]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.49.16:496][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.49.16:496][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.49.16:496][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.49.16:496][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.20-19.49.16:496][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.20-19.49.16:498][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.20-19.49.16:498][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.20-19.49.16:498][547]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.20-19.49.16:498][547]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMenu'.
+[2024.11.20-19.49.16:498][547]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.20-19.49.16:500][547]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.49.16:500][547]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2024.11.20-16.49.16
+[2024.11.20-19.49.16:501][547]LogWorld: Bringing up level for play took: 0.000306
+[2024.11.20-19.49.16:503][547]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.20-19.49.16:507][547]PIE: Servidor conectado
+[2024.11.20-19.49.16:507][547]PIE: Tempo inicial total de reprodução no editor: 0,099 s
+[2024.11.20-19.49.18:506][667]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/LevelSelector"
+[2024.11.20-19.49.18:506][667]LogNet: Browse: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.49.18:506][667]LogLoad: LoadMap: /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.49.18:506][667]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.49.18:506][667]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.18:506][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.18:506][667]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.49.18:506][667]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.49.18:523][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.49.18:525][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.20-19.49.18:538][667]LogAudio: Display: Audio Device (ID: 6) registered with world 'LevelSelector'.
+[2024.11.20-19.49.18:538][667]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.49.18:538][667]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2024.11.20-19.49.18:538][667]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.49.18:539][667]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector.LevelSelector up for play (max tick rate 60) at 2024.11.20-16.49.18
+[2024.11.20-19.49.18:539][667]LogWorld: Bringing up level for play took: 0.000479
+[2024.11.20-19.49.18:539][667]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.20-19.49.18:543][667]LogLoad: Took 0.037054 seconds to LoadMap(/Game/ThirdPerson/Maps/LevelSelector)
+[2024.11.20-19.49.18:543][667]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/LevelSelector
+[2024.11.20-19.49.20:480][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.49.20:480][781]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_LevelSelector
+[2024.11.20-19.49.20:480][781]LogWorld: UWorld::CleanupWorld for LevelSelector, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.20:480][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.20:480][781]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.49.20:480][781]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.49.20:483][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.49.20:487][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.20:501][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.49.20:501][781]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.20-19.49.20:501][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.20-19.49.20:504][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.20-19.49.20:517][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.20-19.49.20:552][783]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.20-19.49.35:861][679]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP
+[2024.11.20-19.49.40:462][937]LogSlate: Window '_loop__Tropical_WIP' being destroyed
+[2024.11.20-19.49.40:471][937]LogSlate: Window '_loop__Tropical_WIP' being destroyed
+[2024.11.20-19.49.41:420][987]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP
+[2024.11.20-19.49.43:844][115]LogSlate: Window '_intro_+_loop_Tropical_WIP' being destroyed
+[2024.11.20-19.49.43:853][115]LogSlate: Window '_intro_+_loop_Tropical_WIP' being destroyed
+[2024.11.20-19.49.50:473][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.20-19.49.51:770][507]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.49.51:781][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.49.51:837][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP] ([1] browsable assets)...
+[2024.11.20-19.49.51:856][507]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP]
+[2024.11.20-19.49.51:856][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP]
+[2024.11.20-19.49.51:883][507]LogSavePackage: Moving output files for package: /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP
+[2024.11.20-19.49.51:884][507]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/_intro_+_loop_Tropical_WIP601C78E34162CC9A741CB694AD87F45E.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP.uasset'
+[2024.11.20-19.49.51:885][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP] ([1] browsable assets)...
+[2024.11.20-19.49.51:902][507]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP]
+[2024.11.20-19.49.51:902][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP]
+[2024.11.20-19.49.51:930][507]LogSavePackage: Moving output files for package: /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP
+[2024.11.20-19.49.51:930][507]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/_loop__Tropical_WIP7D56D5574D3F1E45833333B3808C394D.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP.uasset'
+[2024.11.20-19.49.51:987][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 206.365 ms (total: 1.30 sec)
+[2024.11.20-19.49.52:019][507]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.11.20-19.49.52:019][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.49.52:019][507]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/Nivel2.Nivel2, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.49.52:035][507]LogStreaming: Display: FlushAsyncLoading(2279): 469 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.49.52:432][507]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.49.52:432][507]LogWorldPartition: Display: WorldPartition initialize took 413.001 ms (total: 3.12 sec)
+[2024.11.20-19.49.52:581][507]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Nivel2.Nivel2
+[2024.11.20-19.49.52:581][507]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/Nivel2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.49.52:623][507]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.52:623][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.52:623][507]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.49.52:623][507]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.49.52:651][507]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.49.52:656][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.20-19.49.52:662][507]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.49.52:663][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.49.52:664][507]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/Nivel2.Nivel2
+[2024.11.20-19.49.52:666][507]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.49.52:694][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.11.20-19.49.52:711][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.20-19.49.52:738][507]LogAudio: Display: Audio Device (ID: 1) registered with world 'Nivel2'.
+[2024.11.20-19.49.52:738][507]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.49.52:739][507]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.11.20-19.49.52:739][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.49.52:739][507]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/Nivel2.Nivel2, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.49.53:147][507]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.49.53:147][507]LogWorldPartition: Display: WorldPartition initialize took 408.870 ms (total: 3.53 sec)
+[2024.11.20-19.49.53:382][507]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.49.53:412][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.20-19.49.53:489][507]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.49.53:491][507]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 2,059ms para ser concluída.
+[2024.11.20-19.49.53:571][507]LogContentValidation: Display: Starting to validate 2 assets
+[2024.11.20-19.49.53:571][507]LogContentValidation: Enabled validators:
+[2024.11.20-19.49.53:571][507]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.49.53:571][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.49.53:571][507]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.49.53:571][507]LogContentValidation: Display: Validating asset /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP._intro_+_loop_Tropical_WIP
+[2024.11.20-19.49.53:571][507]AssetCheck: /Game/Som/TrilhaSonora/Tropical/_intro_+_loop_Tropical_WIP Validando ativo
+[2024.11.20-19.49.53:571][507]LogContentValidation: Display: Validating asset /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP._loop__Tropical_WIP
+[2024.11.20-19.49.53:571][507]AssetCheck: /Game/Som/TrilhaSonora/Tropical/_loop__Tropical_WIP Validando ativo
+[2024.11.20-19.49.55:383][611]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.20-19.49.55:388][611]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.20-19.49.57:971][741]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/Nivel2.Nivel2:PersistentLevel.Nivel2
+[2024.11.20-19.50.10:034][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.20-19.50.11:325][497]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.50.11:334][497]LogContentBundle: [Nivel2(Autônomo)] Generating Streaming for 0 Content Bundles.
+[2024.11.20-19.50.11:334][497]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.50.11:345][497]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 10.192 ms (total: 2.30 sec)
+[2024.11.20-19.50.11:345][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.50.11:380][497]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.11:422][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040907s)
+[2024.11.20-19.50.11:422][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Nivel2.Nivel2 to /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 (0.040952s)
+[2024.11.20-19.50.11:441][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.20-19.50.11:442][497]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.50.11:443][497]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.50.11:443][497]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.50.11:443][497]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.50.11:443][497]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.50.11:461][497]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.50.11:461][497]LogWorldPartition: Display: WorldPartition initialize took 18.578 ms (total: 3.55 sec)
+[2024.11.20-19.50.11:461][497]LogPlayLevel: PIE: World Init took: (0.019675s)
+[2024.11.20-19.50.11:461][497]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.20-19.50.11:461][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.50.11:461][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.50.11:462][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.50.11:462][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.50.11:462][497]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.50.11:462][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.50.11:462][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.50.11:462][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.50.11:462][497]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.50.11:462][497]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.50.11:462][497]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.50.11:463][497]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.50.11:525][497]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.50.11:525][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.50.11:525][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.50.11:525][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.50.11:527][497]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.20-19.50.11:527][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.20-19.50.11:528][497]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.20-19.50.11:528][497]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.20-19.50.11:529][497]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.20-19.50.11:529][497]LogAudio: Display: Audio Device (ID: 7) registered with world 'Nivel2'.
+[2024.11.20-19.50.11:529][497]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.20-19.50.11:532][497]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.50.11:544][497]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.50.11
+[2024.11.20-19.50.11:544][497]LogWorld: Bringing up level for play took: 0.012970
+[2024.11.20-19.50.11:546][497]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.11.20-19.50.11:553][497]PIE: Servidor conectado
+[2024.11.20-19.50.11:553][497]PIE: Tempo inicial total de reprodução no editor: 0,219 s
+[2024.11.20-19.50.26:707][405]Cmd: restartlevel
+[2024.11.20-19.50.26:708][405]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2?restart"
+[2024.11.20-19.50.26:708][405]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2?restart
+[2024.11.20-19.50.26:708][405]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.50.26:708][405]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.26:708][405]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.50.26:710][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.50.26:710][405]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.50.26:710][405]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.50.26:710][405]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.50.26:710][405]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.50.26:776][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.50.26:783][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.20-19.50.26:785][405]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.26:826][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040128s)
+[2024.11.20-19.50.26:826][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Nivel2.Nivel2 to /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 (0.040172s)
+[2024.11.20-19.50.26:826][405]LogAudio: Display: Audio Device (ID: 7) registered with world 'Nivel2'.
+[2024.11.20-19.50.26:826][405]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.50.26:826][405]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.50.26:826][405]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.50.26:826][405]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.50.26:826][405]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.50.26:846][405]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.50.26:846][405]LogWorldPartition: Display: WorldPartition initialize took 19.106 ms (total: 3.56 sec)
+[2024.11.20-19.50.26:846][405]LogPlayLevel: PIE: World Init took: (0.020088s)
+[2024.11.20-19.50.26:846][405]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.50.26:858][405]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.50.26
+[2024.11.20-19.50.26:859][405]LogWorld: Bringing up level for play took: 0.012589
+[2024.11.20-19.50.26:864][405]LogLoad: Took 0.156771 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_Nivel2)
+[2024.11.20-19.50.26:864][405]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.46:734][596]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:750][597]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:766][598]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:784][599]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:800][600]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:816][601]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:833][602]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:850][603]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:866][604]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:883][605]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:900][606]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.46:917][607]PIE: Warning: Tentando mover uma malha esquelética totalmente simulada /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0. Use a sinalização Teletransporte
+[2024.11.20-19.50.47:749][657]Cmd: restartlevel
+[2024.11.20-19.50.47:752][657]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2?restart"
+[2024.11.20-19.50.47:752][657]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2?restart
+[2024.11.20-19.50.47:752][657]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.50.47:752][657]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.47:752][657]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.50.47:755][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.50.47:755][657]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.50.47:755][657]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.50.47:755][657]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.50.47:755][657]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.50.47:813][657]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.50.47:818][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.20-19.50.47:820][657]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.47:860][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039994s)
+[2024.11.20-19.50.47:860][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Nivel2.Nivel2 to /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 (0.040067s)
+[2024.11.20-19.50.47:860][657]LogAudio: Display: Audio Device (ID: 7) registered with world 'Nivel2'.
+[2024.11.20-19.50.47:860][657]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.50.47:861][657]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.50.47:861][657]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.50.47:861][657]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.50.47:861][657]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.50.47:880][657]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.50.47:880][657]LogWorldPartition: Display: WorldPartition initialize took 19.099 ms (total: 3.58 sec)
+[2024.11.20-19.50.47:880][657]LogPlayLevel: PIE: World Init took: (0.020239s)
+[2024.11.20-19.50.47:880][657]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.50.47:893][657]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.50.47
+[2024.11.20-19.50.47:893][657]LogWorld: Bringing up level for play took: 0.012310
+[2024.11.20-19.50.47:898][657]LogLoad: Took 0.147029 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_Nivel2)
+[2024.11.20-19.50.47:898][657]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.49:386][745]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2024.11.20-19.50.53:940][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.50.53:940][ 16]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.50.53:942][ 16]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.50.53:944][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.50.53:944][ 16]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.50.53:944][ 16]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.50.53:944][ 16]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.50.53:944][ 16]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.50.53:949][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.50.53:955][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.50.53:977][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.50.53:977][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.20-19.50.53:977][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.20-19.50.53:979][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.20-19.50.54:015][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.20-19.50.54:282][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.11.20-19.51.16:551][343]LogSlate: Window 'Log de Mensagens' being destroyed
+[2024.11.20-19.51.16:559][343]LogSlate: Window 'Log de Mensagens' being destroyed
+[2024.11.20-19.51.17:912][419]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.51.17:921][419]LogContentBundle: [Nivel2(Autônomo)] Generating Streaming for 0 Content Bundles.
+[2024.11.20-19.51.17:921][419]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.51.17:932][419]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 10.102 ms (total: 2.31 sec)
+[2024.11.20-19.51.17:932][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.51.17:932][419]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.51.17:973][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040455s)
+[2024.11.20-19.51.17:973][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Nivel2.Nivel2 to /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 (0.040485s)
+[2024.11.20-19.51.17:992][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.51.17:992][419]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.51.17:993][419]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.51.17:993][419]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.51.17:993][419]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.51.17:993][419]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.51.18:013][419]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.51.18:013][419]LogWorldPartition: Display: WorldPartition initialize took 19.475 ms (total: 3.60 sec)
+[2024.11.20-19.51.18:013][419]LogPlayLevel: PIE: World Init took: (0.020590s)
+[2024.11.20-19.51.18:013][419]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.51.18:013][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.51.18:013][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.51.18:013][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.51.18:013][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.51.18:013][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.51.18:015][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.51.18:075][419]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.51.18:075][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.51.18:075][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.51.18:075][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.51.18:076][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.20-19.51.18:076][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.20-19.51.18:078][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.20-19.51.18:078][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.20-19.51.18:078][419]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.20-19.51.18:078][419]LogAudio: Display: Audio Device (ID: 8) registered with world 'Nivel2'.
+[2024.11.20-19.51.18:078][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.20-19.51.18:080][419]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.51.18:092][419]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.51.18
+[2024.11.20-19.51.18:093][419]LogWorld: Bringing up level for play took: 0.012183
+[2024.11.20-19.51.18:094][419]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.11.20-19.51.18:099][419]PIE: Servidor conectado
+[2024.11.20-19.51.18:100][419]PIE: Tempo inicial total de reprodução no editor: 0,178 s
+[2024.11.20-19.51.41:650][831]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical"
+[2024.11.20-19.51.41:650][831]LogNet: Browse: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical
+[2024.11.20-19.51.41:650][831]LogLoad: LoadMap: /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical
+[2024.11.20-19.51.41:650][831]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.51.41:652][831]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.51.41:654][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.51.41:654][831]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.51.41:654][831]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.51.41:654][831]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.51.41:654][831]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.51.41:712][831]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.51.41:719][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.20-19.51.41:735][831]LogAudio: Display: Audio Device (ID: 8) registered with world 'TP_2_1_Tropical'.
+[2024.11.20-19.51.41:735][831]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.51.41:736][831]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2024.11.20-19.51.41:736][831]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.51.41:745][831]LogWorld: Bringing World /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_2_1_Tropical.TP_2_1_Tropical up for play (max tick rate 60) at 2024.11.20-16.51.41
+[2024.11.20-19.51.41:746][831]LogWorld: Bringing up level for play took: 0.009917
+[2024.11.20-19.51.41:797][831]LogLoad: Took 0.147898 seconds to LoadMap(/Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical)
+[2024.11.20-19.51.41:797][831]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/TP_Cenas/TP_2_1_Tropical
+[2024.11.20-19.52.06:288][300]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Nivel2_p1"
+[2024.11.20-19.52.06:288][300]LogNet: Browse: /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.52.06:288][300]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.52.06:288][300]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/TP_Cenas/UEDPIE_0_TP_2_1_Tropical
+[2024.11.20-19.52.06:289][300]LogWorld: UWorld::CleanupWorld for TP_2_1_Tropical, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.06:289][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.06:289][300]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.06:289][300]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.06:330][300]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.52.06:333][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.20-19.52.06:357][300]LogAudio: Display: Audio Device (ID: 8) registered with world 'Nivel2_p1'.
+[2024.11.20-19.52.06:357][300]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.52.06:358][300]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2_p1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.52.06:358][300]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.52.06:358][300]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.20-19.52.06:358][300]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.52.06:366][300]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p1' started...
+[2024.11.20-19.52.06:370][300]LogStreaming: Display: FlushAsyncLoading(3217): 183 QueuedPackages, 0 AsyncPackages
+[2024.11.20-19.52.06:579][300]LogWorldPartition: Display: GenerateStreaming for 'Nivel2_p1' took 213.599 ms (total: 2.52 sec)
+[2024.11.20-19.52.06:586][300]LogContentBundle: [Nivel2_p1(Autônomo)] Creating new container.
+[2024.11.20-19.52.06:586][300]LogWorldPartition: Display: WorldPartition initialize took 227.876 ms (total: 3.83 sec)
+[2024.11.20-19.52.06:586][300]LogPlayLevel: PIE: World Init took: (0.228959s)
+[2024.11.20-19.52.06:586][300]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.52.06:613][300]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1 up for play (max tick rate 60) at 2024.11.20-16.52.06
+[2024.11.20-19.52.06:614][300]LogWorld: Bringing up level for play took: 0.027306
+[2024.11.20-19.52.06:618][300]LogLoad: Took 0.329214 seconds to LoadMap(/Game/ThirdPerson/Maps/Nivel2_p1)
+[2024.11.20-19.52.06:618][300]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/Nivel2_p1
+[2024.11.20-19.52.22:571][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.22:571][254]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1
+[2024.11.20-19.52.22:571][254]LogWorld: UWorld::CleanupWorld for Nivel2_p1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.22:572][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.22:572][254]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2_p1.Nivel2_p1
+[2024.11.20-19.52.22:573][254]LogContentBundle: [Nivel2_p1(Autônomo)] Deleting container.
+[2024.11.20-19.52.22:573][254]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.22:573][254]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.22:577][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.52.22:582][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.22:602][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.22:603][254]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.20-19.52.22:603][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.20-19.52.22:605][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.20-19.52.22:637][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.20-19.52.22:680][255]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.11.20-19.52.24:056][335]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.52.24:066][335]LogContentBundle: [Nivel2(Autônomo)] Generating Streaming for 0 Content Bundles.
+[2024.11.20-19.52.24:066][335]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' started...
+[2024.11.20-19.52.24:076][335]LogWorldPartition: Display: GenerateStreaming for 'Nivel2' took 10.363 ms (total: 2.53 sec)
+[2024.11.20-19.52.24:076][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.52.24:076][335]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.52.24:117][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040406s)
+[2024.11.20-19.52.24:117][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Nivel2.Nivel2 to /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 (0.040438s)
+[2024.11.20-19.52.24:137][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.52.24:137][335]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.52.24:139][335]LogWorldPartition: ULevel::OnLevelLoaded(Nivel2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-19.52.24:139][335]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-19.52.24:139][335]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-19.52.24:139][335]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-19.52.24:158][335]LogContentBundle: [Nivel2(Autônomo)] Creating new container.
+[2024.11.20-19.52.24:158][335]LogWorldPartition: Display: WorldPartition initialize took 19.099 ms (total: 3.85 sec)
+[2024.11.20-19.52.24:158][335]LogPlayLevel: PIE: World Init took: (0.020338s)
+[2024.11.20-19.52.24:158][335]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.52.24:158][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.52.24:158][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.52.24:158][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.52.24:158][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.52.24:158][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.52.24:159][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.52.24:220][335]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.52.24:220][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.52.24:221][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.52.24:221][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.52.24:221][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.20-19.52.24:221][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.20-19.52.24:223][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.20-19.52.24:223][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.20-19.52.24:223][335]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.20-19.52.24:223][335]LogAudio: Display: Audio Device (ID: 9) registered with world 'Nivel2'.
+[2024.11.20-19.52.24:223][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.20-19.52.24:225][335]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.52.24:237][335]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2 up for play (max tick rate 60) at 2024.11.20-16.52.24
+[2024.11.20-19.52.24:237][335]LogWorld: Bringing up level for play took: 0.012468
+[2024.11.20-19.52.24:240][335]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.11.20-19.52.24:245][335]PIE: Servidor conectado
+[2024.11.20-19.52.24:245][335]PIE: Tempo inicial total de reprodução no editor: 0,18 s
+[2024.11.20-19.52.28:640][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.28:640][596]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2
+[2024.11.20-19.52.28:642][596]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.28:644][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.28:644][596]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_Nivel2.Nivel2
+[2024.11.20-19.52.28:644][596]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.52.28:644][596]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.28:644][596]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.28:647][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.52.28:651][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.28:668][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.28:670][596]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.20-19.52.28:670][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.20-19.52.28:671][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.20-19.52.28:695][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.20-19.52.28:735][597]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.11.20-19.52.33:592][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.52.35:367][885]LogSlate: Window 'Salvar conteúdo' being destroyed
+[2024.11.20-19.52.35:380][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-19.52.35:429][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/Nivel2" FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/Nivel2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.20-19.52.35:483][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.20-19.52.35:489][885]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Nivel2
+[2024.11.20-19.52.35:489][885]LogSavePackage: Moving '../../../../Unreal Projects/Joguitozito/Joguitozito01/Saved/Nivel25843AB344A38E867D3CFC9896A98B3E7.tmp' to '../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/Nivel2.umap'
+[2024.11.20-19.52.35:498][885]LogFileHelpers: Todos os arquivos já estão salvos.
+[2024.11.20-19.52.35:499][885]LogFileHelpers: Saving map 'Nivel2' took 0.071
+[2024.11.20-19.52.35:560][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.346 ms (total: 1.48 sec)
+[2024.11.20-19.52.35:588][885]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/SolarPunkMapNv2_3.SolarPunkMapNv2_3
+[2024.11.20-19.52.35:588][885]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Joguitozito/Joguitozito01/Content/ThirdPerson/Maps/SolarPunkMapNv2_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-19.52.35:647][885]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.35:647][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.35:673][885]LogWorld: UWorld::CleanupWorld for Nivel2, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.35:673][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.35:673][885]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/Nivel2.Nivel2
+[2024.11.20-19.52.35:678][885]LogContentBundle: [Nivel2(Autônomo)] Deleting container.
+[2024.11.20-19.52.35:679][885]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.35:679][885]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.35:701][885]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.52.35:714][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.11.20-19.52.35:719][885]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.35:719][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.35:739][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.20-19.52.35:754][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.20-19.52.35:775][885]LogAudio: Display: Audio Device (ID: 1) registered with world 'SolarPunkMapNv2_3'.
+[2024.11.20-19.52.35:775][885]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.52.35:824][885]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-19.52.35:847][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.20-19.52.35:855][885]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-19.52.35:855][885]MapCheck: Verificação do mapa concluída: 0 erro(s), 0 aviso(s), levou 0,07ms para ser concluída.
+[2024.11.20-19.52.35:928][885]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.20-19.52.35:928][885]LogContentValidation: Enabled validators:
+[2024.11.20-19.52.35:928][885]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.20-19.52.35:928][885]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.20-19.52.35:928][885]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.20-19.52.35:959][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.11.20-19.52.36:537][918]LogDebuggerCommands: Repeating last play command: Janela de visualização selecionada
+[2024.11.20-19.52.36:548][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-19.52.36:548][918]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3
+[2024.11.20-19.52.36:551][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003358s)
+[2024.11.20-19.52.36:551][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/SolarPunkMapNv2_3.SolarPunkMapNv2_3 to /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3.SolarPunkMapNv2_3 (0.003388s)
+[2024.11.20-19.52.36:571][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.52.36:572][918]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.52.36:573][918]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2024.11.20-19.52.36:573][918]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-19.52.36:573][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-19.52.36:573][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-19.52.36:573][918]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-19.52.36:573][918]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-19.52.36:573][918]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-19.52.36:574][918]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-19.52.36:635][918]LogAudioMixer: Display: Using Audio Hardware Device Altofalantes (Realtek(R) Audio)
+[2024.11.20-19.52.36:635][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-19.52.36:635][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-19.52.36:635][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-19.52.36:636][918]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.20-19.52.36:636][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.20-19.52.36:637][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.20-19.52.36:637][918]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.20-19.52.36:637][918]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.20-19.52.36:637][918]LogAudio: Display: Audio Device (ID: 10) registered with world 'SolarPunkMapNv2_3'.
+[2024.11.20-19.52.36:637][918]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.20-19.52.36:640][918]LogLoad: Game class is 'BP_2D-Game-Mode_C'
+[2024.11.20-19.52.36:642][918]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3.SolarPunkMapNv2_3 up for play (max tick rate 60) at 2024.11.20-16.52.36
+[2024.11.20-19.52.36:642][918]LogWorld: Bringing up level for play took: 0.002018
+[2024.11.20-19.52.36:644][918]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.11.20-19.52.36:646][918]PIE: Servidor conectado
+[2024.11.20-19.52.36:647][918]PIE: Tempo inicial total de reprodução no editor: 0,099 s
+[2024.11.20-19.52.41:212][192]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/MainMenu"
+[2024.11.20-19.52.41:212][192]LogNet: Browse: /Game/ThirdPerson/Maps/MainMenu
+[2024.11.20-19.52.41:212][192]LogLoad: LoadMap: /Game/ThirdPerson/Maps/MainMenu
+[2024.11.20-19.52.41:212][192]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_SolarPunkMapNv2_3
+[2024.11.20-19.52.41:212][192]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.41:212][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.41:212][192]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.41:212][192]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.41:258][192]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-19.52.41:260][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.20-19.52.41:274][192]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenu'.
+[2024.11.20-19.52.41:274][192]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.20-19.52.41:275][192]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2024.11.20-19.52.41:275][192]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.20-19.52.41:275][192]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2024.11.20-16.52.41
+[2024.11.20-19.52.41:275][192]LogWorld: Bringing up level for play took: 0.000454
+[2024.11.20-19.52.41:276][192]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.20-19.52.41:279][192]LogLoad: Took 0.067382 seconds to LoadMap(/Game/ThirdPerson/Maps/MainMenu)
+[2024.11.20-19.52.41:279][192]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/MainMenu
+[2024.11.20-19.52.42:500][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.42:500][264]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2024.11.20-19.52.42:500][264]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.42:501][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.42:501][264]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.42:501][264]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.42:503][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-19.52.42:508][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.42:521][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-19.52.42:521][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.20-19.52.42:521][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.20-19.52.42:522][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.20-19.52.42:558][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.20-19.52.42:597][265]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.11.20-19.52.44:869][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.11.20-19.52.44:902][400]LogStall: Shutdown...
+[2024.11.20-19.52.44:906][400]LogStall: Shutdown complete.
+[2024.11.20-19.52.44:965][400]LogSlate: Window 'Joguitozito01 — Unreal Editor' being destroyed
+[2024.11.20-19.52.45:028][401]Cmd: QUIT_EDITOR
+[2024.11.20-19.52.45:028][401]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.11.20-19.52.45:029][401]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.11.20-19.52.45:031][401]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.11.20-19.52.45:031][401]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.11.20-19.52.45:031][401]LogWorld: UWorld::CleanupWorld for SolarPunkMapNv2_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:031][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:031][401]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.20-19.52.45:031][401]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.20-19.52.45:042][401]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.11.20-19.52.45:044][401]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:045][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:047][401]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:047][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:051][401]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:051][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:054][401]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:054][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:056][401]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:056][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:058][401]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:058][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:061][401]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:061][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:063][401]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:063][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:066][401]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:066][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:069][401]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:069][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:071][401]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:071][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:074][401]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:074][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:077][401]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:077][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:079][401]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:079][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:081][401]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:081][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:084][401]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:084][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:087][401]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:087][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:090][401]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:090][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:092][401]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:092][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:095][401]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-19.52.45:095][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-19.52.45:169][401]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.11.20-19.52.45:169][401]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.11.20-19.52.45:169][401]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.11.20-19.52.45:584][401]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.11.20-19.52.45:584][401]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.11.20-19.52.45:584][401]LogAudio: Display: Audio Device unregistered from world 'SolarPunkMapNv2_3'.
+[2024.11.20-19.52.45:585][401]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.11.20-19.52.45:585][401]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.20-19.52.45:586][401]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.20-19.52.45:619][401]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.11.20-19.52.45:619][401]LogAudio: Display: Audio Device Manager Shutdown
+[2024.11.20-19.52.45:620][401]LogWindowsTextInputMethodSystem: Activated input method: Inglês (Estados Unidos) - (Keyboard).
+[2024.11.20-19.52.45:625][401]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.11.20-19.52.45:625][401]LogExit: Preparing to exit.
+[2024.11.20-19.52.45:652][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.45:658][401]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.20-19.52.46:038][401]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.11.20-19.52.46:051][401]LogExit: Editor shut down
+[2024.11.20-19.52.46:051][401]LogExit: Transaction tracking system shut down
+[2024.11.20-19.52.46:174][401]LogExit: Object subsystem successfully closed.
+[2024.11.20-19.52.46:226][401]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.11.20-19.52.47:106][401]MemoryProfiler: Shutdown
+[2024.11.20-19.52.47:106][401]NetworkingProfiler: Shutdown
+[2024.11.20-19.52.47:106][401]LoadingProfiler: Shutdown
+[2024.11.20-19.52.47:106][401]TimingProfiler: Shutdown
+[2024.11.20-19.52.47:304][401]LogOpenImageDenoise: OIDN shutting down
+[2024.11.20-19.52.47:467][401]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.11.20-19.52.47:467][401]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB69D0F78-4BD1-90D4-06EB-4F8B616AA3C2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.3-34507850%2B%2B%2BUE5%2BRelease-5.4&UserID=40f8f21a497f7ca0940e54bf76e0a333%7Caff50c623c48487a90efe273221c69eb%7C4d96c260-f226-44be-a47d-612d0c4fe24d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.11.20-19.52.47:495][401]RenderDocPlugin: plugin has been unloaded.
+[2024.11.20-19.52.47:496][401]LogXGEController: Cleaning working directory: C:/Users/enzor/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.11.20-19.52.47:498][401]LogPakFile: Destroying PakPlatformFile
+[2024.11.20-19.52.47:667][401]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.11.20-19.52.47:683][401]LogExit: Exiting.
+[2024.11.20-19.52.47:697][401]Log file closed, 11/20/24 16:52:47
