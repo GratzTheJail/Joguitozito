@@ -14454,3 +14454,144 @@ Make sure '/Game/2D-Assets/Blueprints/BP_2D-Player.BP_2D-Player_C' has been comp
 [2024.11.27-22.27.54:669][535]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11442.613281
 [2024.11.27-22.27.55:671][538]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.11.27-22.27.55:671][538]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11443.283203, Update Interval: 356.504395
+[2024.11.27-22.28.09:736][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.27-22.28.09:738][580]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/SolarPunkMap' took 0.023
+[2024.11.27-22.28.09:738][580]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2D-Assets/Blueprints/BP_2D-Player] ([2] browsable assets)...
+[2024.11.27-22.28.09:738][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/2D-Assets/Blueprints/BP_2D-Player]
+[2024.11.27-22.28.09:843][580]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2D-Assets/Blueprints/BP_2D-Player_Auto6
+[2024.11.27-22.28.09:843][580]LogSavePackage: Moving 'F:/Users/Meu computador/Documents/GitHub/Joguitozito/Joguitozito01/Saved/BP_2D-Player_Auto6D2E6D0844FDCED48260ED994FC8BF1D2.tmp' to 'F:/Users/Meu computador/Documents/GitHub/Joguitozito/Joguitozito01/Saved/Autosaves/Game/2D-Assets/Blueprints/BP_2D-Player_Auto6.uasset'
+[2024.11.27-22.28.09:844][580]LogFileHelpers: Auto-saving content packages took 0.106
+[2024.11.27-22.28.20:126][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.27-22.28.22:383][803]LogSlate: Window 'Save Content' being destroyed
+[2024.11.27-22.28.22:396][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-22.28.22:431][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2D-Assets/Blueprints/BP_2D-Player] ([2] browsable assets)...
+[2024.11.27-22.28.22:431][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/2D-Assets/Blueprints/BP_2D-Player]
+[2024.11.27-22.28.22:523][803]LogSavePackage: Moving output files for package: /Game/2D-Assets/Blueprints/BP_2D-Player
+[2024.11.27-22.28.22:523][803]LogSavePackage: Moving 'F:/Users/Meu computador/Documents/GitHub/Joguitozito/Joguitozito01/Saved/BP_2D-Player81092A0648F2CA3C70F49288DEB6B89C.tmp' to 'F:/Users/Meu computador/Documents/GitHub/Joguitozito/Joguitozito01/Content/2D-Assets/Blueprints/BP_2D-Player.uasset'
+[2024.11.27-22.28.22:537][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.173 ms (total: 5.79 sec)
+[2024.11.27-22.28.22:580][803]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.27-22.28.22:580][803]LogContentValidation: Enabled validators:
+[2024.11.27-22.28.22:580][803]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.27-22.28.22:580][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.27-22.28.22:580][803]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.27-22.28.22:580][803]LogContentValidation: Display: Validating asset /Game/2D-Assets/Blueprints/BP_2D-Player.BP_2D-Player
+[2024.11.27-22.28.22:580][803]AssetCheck: /Game/2D-Assets/Blueprints/BP_2D-Player Validating asset
+[2024.11.27-22.28.22:607][803]LogAutomationController: Ignoring very large delta of 2.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.27-22.28.23:403][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.27-22.28.23:462][859]LogStall: Shutdown...
+[2024.11.27-22.28.23:467][859]LogStall: Shutdown complete.
+[2024.11.27-22.28.23:520][859]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.23:520][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.23:547][859]LogSlate: Window 'FB_joca_2D_run' being destroyed
+[2024.11.27-22.28.23:563][859]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.23:563][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.23:628][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.27-22.28.23:628][859]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.23:628][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.23:901][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.27-22.28.23:901][859]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.23:902][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:040][859]LogSlate: Window 'Joguitozito01 - Unreal Editor' being destroyed
+[2024.11.27-22.28.24:333][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.27-22.28.24:361][859]Cmd: QUIT_EDITOR
+[2024.11.27-22.28.24:361][860]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.11.27-22.28.24:366][860]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.11.27-22.28.24:368][860]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.11.27-22.28.24:368][860]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.11.27-22.28.24:370][860]LogWorld: UWorld::CleanupWorld for SolarPunkMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:370][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:370][860]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.27-22.28.24:370][860]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.27-22.28.24:392][860]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.11.27-22.28.24:416][860]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:416][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:420][860]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:420][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:425][860]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:425][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:431][860]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:431][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:433][860]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:433][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:437][860]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:437][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:441][860]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:441][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:446][860]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:446][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:449][860]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:449][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:453][860]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:453][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:457][860]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:457][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:461][860]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:461][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:464][860]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:464][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:468][860]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:468][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:472][860]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:472][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:475][860]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:475][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:478][860]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:479][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:482][860]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:482][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:486][860]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:486][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:490][860]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-22.28.24:490][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-22.28.24:678][860]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.11.27-22.28.24:678][860]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.11.27-22.28.24:678][860]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.11.27-22.28.25:489][860]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.11.27-22.28.25:489][860]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.11.27-22.28.25:489][860]LogAudio: Display: Audio Device unregistered from world 'SolarPunkMap'.
+[2024.11.27-22.28.25:489][860]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.11.27-22.28.25:489][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.27-22.28.25:491][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.27-22.28.25:504][860]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.11.27-22.28.25:504][860]LogAudio: Display: Audio Device Manager Shutdown
+[2024.11.27-22.28.25:506][860]LogWindowsTextInputMethodSystem: Activated input method: Portuguese (Brazil) - (Keyboard).
+[2024.11.27-22.28.25:510][860]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.11.27-22.28.25:512][860]LogExit: Preparing to exit.
+[2024.11.27-22.28.25:566][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.27-22.28.25:572][860]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:572][860]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:574][860]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:576][860]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:577][860]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.27-22.28.25:976][860]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.11.27-22.28.26:020][860]LogExit: Editor shut down
+[2024.11.27-22.28.26:025][860]LogExit: Transaction tracking system shut down
+[2024.11.27-22.28.26:785][860]LogExit: Object subsystem successfully closed.
+[2024.11.27-22.28.26:889][860]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.11.27-22.28.27:902][860]MemoryProfiler: Shutdown
+[2024.11.27-22.28.27:903][860]NetworkingProfiler: Shutdown
+[2024.11.27-22.28.27:903][860]LoadingProfiler: Shutdown
+[2024.11.27-22.28.27:904][860]TimingProfiler: Shutdown
+[2024.11.27-22.28.28:124][860]LogOpenImageDenoise: OIDN shutting down
+[2024.11.27-22.28.28:467][860]RenderDocPlugin: plugin has been unloaded.
+[2024.11.27-22.28.28:516][860]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.11.27-22.28.28:516][860]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A1497A6-4293-F8AB-BB65-A09F98D8CEA7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=3298ec9a4cff639166de95802b99aae4%7Caff50c623c48487a90efe273221c69eb%7C523f2b2d-e923-4097-ba89-ba63682b7d0f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.11.27-22.28.29:063][860]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2024.11.27-22.28.29:068][860]LogXGEController: Cleaning working directory: C:/Users/Meu computador/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.11.27-22.28.29:080][860]LogPakFile: Destroying PakPlatformFile
