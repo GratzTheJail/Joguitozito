@@ -14451,6 +14451,7 @@ Make sure '/Game/2D-Assets/Blueprints/BP_2D-Player.BP_2D-Player_C' has been comp
 [2024.11.27-22.25.01:713][142]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
 [2024.11.27-22.25.01:713][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.11.27-22.25.01:807][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+<<<<<<< Updated upstream
 [2024.11.27-22.27.54:669][535]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11442.613281
 [2024.11.27-22.27.55:671][538]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.11.27-22.27.55:671][538]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11443.283203, Update Interval: 356.504395
@@ -14598,3 +14599,5 @@ Make sure '/Game/2D-Assets/Blueprints/BP_2D-Player.BP_2D-Player_C' has been comp
 [2024.11.27-22.28.29:608][860]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.11.27-22.28.29:623][860]LogExit: Exiting.
 [2024.11.27-22.28.29:744][860]Log file closed, 11/27/24 19:28:29
+=======
+>>>>>>> Stashed changes
