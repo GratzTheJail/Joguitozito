@@ -14595,3 +14595,6 @@ Make sure '/Game/2D-Assets/Blueprints/BP_2D-Player.BP_2D-Player_C' has been comp
 [2024.11.27-22.28.29:063][860]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
 [2024.11.27-22.28.29:068][860]LogXGEController: Cleaning working directory: C:/Users/Meu computador/AppData/Local/Temp/UnrealXGEWorkingDir/
 [2024.11.27-22.28.29:080][860]LogPakFile: Destroying PakPlatformFile
+[2024.11.27-22.28.29:608][860]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.11.27-22.28.29:623][860]LogExit: Exiting.
+[2024.11.27-22.28.29:744][860]Log file closed, 11/27/24 19:28:29
