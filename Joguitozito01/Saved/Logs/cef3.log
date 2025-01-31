@@ -1,2 +1,18 @@
-[0131/132200.667:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 79
-[0131/132249.586:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0131/144348.757:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144353.772:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144358.780:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144403.798:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144408.813:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144413.834:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144418.850:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144423.869:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144428.875:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/144444.483:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0131/144737.980:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/145101.476:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/145106.490:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/152711.799:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/152711.804:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/152711.834:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/152711.865:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0131/152711.865:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
